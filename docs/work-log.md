@@ -60,3 +60,26 @@ Detail page/exhibiorin/workshops: not landed entirely on content here.
 
 
 
+18.11.2025
+Searched after Science Museum and looked for inspiration for colors layouts.
+I reviewed theese three websites:
+https://www.sciencemuseum.org.uk/
+https://www.tekniskmuseum.no
+https://www.ntnu.no/museum/
+
+They have all dark themes, it looks good but it feels more serious and academically oriented.
+So in iorder to meet my requirement in the CA i want to use large images insteed of dense infomation.
+Color's , light interface, playful layouts. Setting a playful moodboard for the Science Museum.
+
+This approach aligns better with the targeted audience in the age span 7-15 years with families.
+It could also make it easier to separate the content categories: Kids/Teens/Parents. Where the "Kids"
+categorie is less text and more visual apealing/engaging with playfull colors and a light interface.
+
+For typografi i went to google fonts, and searched for playful, I liked the second option that came up.
+Nunito: Want to use this for headings and Montserrat for the body text.
+I used Montserrat in the Rainy Days project, its easy to read and modern.
+
+Created a style and color frame, moodboard in Figma. Might have to change colors later on. But we'll see in the WCAG tests.
+
+Started on the low fidelity wireframe, made four desktop pages and one mobile frame for now. 
+
