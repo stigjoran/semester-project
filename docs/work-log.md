@@ -83,3 +83,19 @@ Created a style and color frame, moodboard in Figma. Might have to change colors
 
 Started on the low fidelity wireframe, made four desktop pages and one mobile frame for now. 
 
+19.11.2025
+Completed the low-fidelity wireframe for desktop and mobile.
+Starting with high-fidelity wireframe for both today.
+
+
+20.11.2025
+Had a change of heart on the design, keeping to the moodboard. But 
+
+25.11.2025
+Been sick, still struggelig with the design, but i think its because i want it to be the better than my first prosject rainy days. I realise now that this is a process.
+And just beacause i really want to impress, doesent mean i have the "tool's" to acquire that yet. I have to rethink today, and just try to meet the grading criteria.
+Even though it might happen that im not satisfied with the design. Here we go!
+
+Changed the layout on the home page,  and got Chat GPT to make antoher Hero img.
+Ended up altering the figma wireframe, happy with the result. Made three HF pages today, doing the last tomorrow before i start coding.
+
