@@ -103,3 +103,5 @@ Ended up altering the figma wireframe, happy with the result. Made three HF page
 Made the last page in Figma, made the setup in VS Code with 4 pages and a CSS folder.
 Decided to start with the mobile pages first and use the @media for the desktop later.
 Im doing one page at a time, startet with index.html.
+made index.html, started on the styles.css, made a root and global body styles and typografi.
+
