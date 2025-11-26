@@ -16,7 +16,11 @@
 
 --color-accent: #f97316;
 --color-border: #e5e7eb;
---color-shadow: rgba(15, 23, 42, 0,15)
+--color-shadow: rgba(15, 23, 42, 0.15);
+
+--bp-sm: 600px;
+--bp-md: 768px;
+--bp-lg: 1024px;
 
 --font-heading: "Nunito", sans-serif;
 --font-body: "Montserrat", sans-serif;
@@ -25,7 +29,7 @@
 --fs-xl: 1.5rem;
 --fs-lg: 1.25rem;
 --fs-md: 1rem;
---fs-sm: 0.875;
+--fs-sm: 0.875rem;
 
 --lh-tight: 1.1;
 --lh-normal: 1.45;
@@ -42,5 +46,44 @@
 --radius-lg: 1.5rem;
 
 --shadow-soft: 0 14px 30px var(--color-shadow);
---shadow-card: 0 12px 24px rgba(0, 0, 0, 0.88);
+--shadow-card: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+
+body {
+    background: var(--color-bg-light);
+    font-family: var(--font-body);
+    color: var(--color-text);
+}
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-heading);
+}
+
+.section {
+    padding-block: var(--space-lg);
+    padding-inline: var(--space-md);
+}
+
+.container {
+    max-width: 1120px;
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+    gap: var(--space-lg);
+}
+
+.grid--2 {}
+
+.grid--3 {}
+
+@media (min-width: 768px) {
+    -grid--2 {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+
+    .grid--3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }
