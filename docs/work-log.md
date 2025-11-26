@@ -99,3 +99,7 @@ Even though it might happen that im not satisfied with the design. Here we go!
 Changed the layout on the home page,  and got Chat GPT to make antoher Hero img.
 Ended up altering the figma wireframe, happy with the result. Made three HF pages today, doing the last tomorrow before i start coding.
 
+26.11.2025
+Made the last page in Figma, made the setup in VS Code with 4 pages and a CSS folder.
+Decided to start with the mobile pages first and use the @media for the desktop later.
+Im doing one page at a time, startet with index.html.
