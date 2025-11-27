@@ -19,7 +19,7 @@
         </button>
 
         <nav class="main-nav" aria-label="Main navigation">
-            <ul class="main-nav_list">
+            <ul class="main-nav__list">
                 <li><a class="main-nav__link main-nav__link--active" href="index.html">Home</a></li>
                 <li><a class="main-nav__link" href="exhibitions.html">Exhibitions</a></li>
                 <li><a class="main-nav__link" href="visit.html">Visit</a></li>
@@ -48,10 +48,15 @@
     </div>
 </section>
 
-<section class="audience">
-    <div class="audience-grid">
+<section class="section section-audience" aria-labelledby="audience-title">
+    <div class="container">
+    
+        <h2 id="audience-title" class="sr-only">Who is the museum for?</h2>
+
+        <div class="grid grid--3 audience-grid">
         <article class="audience-card">
-            <img src="images/cards/ChatGPT-Kids.jpg" alt="Kid reading a magazine on a pile of books">
+            <img src="images/cards/ChatGPT-Kids.jpg" 
+             alt="Kid reading a magazine on a pile of books">
         </article>
 
         <article class="audience-card">
@@ -61,51 +66,83 @@
         <article class="audience-card">
             <img src="images/cards/ChatGPT-Researchers.jpg" alt="Researcher at the museum">
         </article>
+        </div>
     </div>
-    </section>
+
+</section>
 
     <section class="section section-line" aria-hidden="true">
-        <img class="section-line__image" src="images/noroff-img/lab-512503_1920.jpg" alt="Vintage illustration of a laboratory with classic scientific intruments"/>
+        <img 
+        class="section-line__image" 
+        src="images/noroff-img/lab-512503_1920.jpg" 
+        alt="">
     </section>
 
     <section class="section section--dark section-events" aria-labelledby="events-title">
-        <h2 id="events-title" class="section-title section-title--light">Special Events And Exhibitions</h2>
+        <div class="container">
 
+        <h2 id="events-title" class="section-title section-title--light">
+            Special Events And Exhibitions
+        </h2>
 
-        
+        <div class="grid grid--3 events-grid">
 
-        <div class="events-grid">
         <article class="card card--dark">
-            <img class="card__image" src="images/cards/ChatGPT-Aeronautics.jpg" alt="show the development of aeronautics and where the future lies in this exciting space"/>
+            <img
+            class="card__image"
+            src="images/cards/ChatGPT-Aeronautics.jpg"
+            alt="show the development of aeronautics and where the future lies in this exciting space">
+            
             <div class="card__body">
-
-            </div>
+                <h3 class="card__title">Visiting Professor of Aeronautics</h3>
+                    <p class="card__text card__text--light">
+                        It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology
+                        will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting space.
+                    </p>
+            </div>    
         </article>
-        
+
         <article class="card card--dark">
-            <img class="card__image" src="images/cards/ChatGPT-Night-at.jpg" alt="Boy in pajamas holding a pillow looking up at a mammoth skeleton in the museum."/>
+            <img
+            class="card__image" 
+            src="images/cards/ChatGPT-Night-at.jpg"
+            alt="Boy in pajamas holding a pillow looking up at a mammoth skeleton in the museum.">
+            
             <div class="card__body">
                 <h3 class="card__title">Night in the Museum</h3>
+                <p class="card__text card__text--light">
+                    Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
+                </p>
             </div>
         </article>
 
         <article class="card card--dark">
-            <img class="card__image" src="images/cards/ChatGPT-Energetica.jpg" alt="Energetica consists of installations that allow visitors to experience the power of the elements as we harness them."/>
+            <img 
+            class="card__image" 
+            src="images/cards/ChatGPT-Energetica.jpg" 
+            alt="Energetica consists of installations that allow visitors to experience the power of the elements as we harness them.">
+            
             <div class="card__body">
                 <h3 class="card__title">Energetica Exhibition on Loan</h3>
+                <p class="card__text card__text--light">
+                    On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It`s a series of installations that allow visitors to experience the power of the elements as we harness them.
+                </p>
             </div>
         </article> 
 
         </div>
+    </div>
     </section>
 
     <section class="section section-exhibitions-cta">
         <div class="exhibitions-cta__image-wrapper">
-            <img class="exhibitions-cta__image"
-            src="images/cards/ChatGPT-Exhibitions.jpg" alt="A museum gallery combining paleontology and space science, with a T.rex and juvenile dinosaur skeleton centerpiece, large globe and saturn model, interactive screens, and a humanoid robot standing beside a digital star-map display"/>
+            <img 
+            class="exhibitions-cta__image"
+            src="images/cards/ChatGPT-Exhibitions.jpg" 
+            alt="A museum gallery combining paleontology and space science, with a T.rex and juvenile dinosaur skeleton centerpiece, large globe and saturn model, interactive screens, and a humanoid robot standing beside a digital star-map display"/>
 
             <div class="exhibitions-cta__card">
-                <h2 class="exhibitions-cta__title>">Explore Our Museum Exhibitions</h2>
+                <h2 class="exhibitions-cta__title">Explore Our Museum Exhibitions</h2>
                 <a class="btn btn--primary" href="exhibitions.html">View exhibitions</a>
             </div>
         </div>

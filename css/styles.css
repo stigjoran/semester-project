@@ -59,6 +59,15 @@ h1, h2, h3, h4, h5 {
     font-family: var(--font-heading);
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    font-family: inherit;
+}
+
 .section {
     padding-block: var(--space-lg);
     padding-inline: var(--space-md);
@@ -86,4 +95,325 @@ h1, h2, h3, h4, h5 {
     .grid--3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: var(--color-bg-white);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: var(--space-md);
+    padding-block: var(--space-sm);
+}
+
+.hero {
+    padding: 0;
+}
+
+.hero__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-card {
+    background-color: var(--color-bg-card-yellow);
+    margin: calc(var(--space-lg) * -1) var(--space-md) 0;
+    padding: var(--radius-lg);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-soft);
+}
+
+.hero-card__title {
+    font-size: var(--fs-xxl);
+    line-height: var(--lh-tight);
+    margin-bottom: var(--space-sm);
+    color: var(--color-text);
+}
+
+.hero-card__text {
+    font-size: var(--fs-md);
+    line-height: var(--lh-relaxed);
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-md);
+}
+
+.hero-card__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.audience {
+    background-color: var(--color-bg-light);
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+}
+
+.audience-grid {
+    align-items: stretch;
+}
+
+.audience-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+}
+
+.section-line {
+    padding-block: var(--space-md);
+    padding-inline: 0;
+    background-color: var(--color-bg-card-yellow);
+}
+
+.section--dark {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+}
+
+.section-events {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+}
+
+.section-title--light {
+    color: var(--color-text-light);
+    text-align: center;
+    margin: 0 0 var(--space-xl);
+}
+
+.events-grid {
+    align-items: stretch;
+}
+
+.card {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.card--dark {
+    background-color: #262320;
+    box-shadow: none;
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.card__body {
+    padding: var(--space-md)
+}
+
+.card__title {
+    font-size: var(--fs-md);
+    margin: 0 0 var(--space-sm);
+    color: var(--color-text-light);
+}
+
+.car__text--light {
+    font-size: var(--fs-sm);
+    line-height: var(--lh-relaxed);
+    color: var(--color-text-light);
+    margin: 0;
+}
+
+.section-exhibitions-cta {
+    padding-inline: 0;
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+    background-color: var(--color-bg-dark);
+}
+
+.exhibitions-cta__image-wrapper {
+    position: relative;
+}
+
+.exhibitions-cta__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.exhibitions-cta__card {
+    background-color: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    box-shadow: var(--shadow-soft);
+    max-width: 90%;
+    margin: var(--space-xl) auto 0;
+    text-align: center;
+}
+
+.exhibitions-cta__title {
+    font-size: var(--fs-lg);
+    margin: 0 0 var(--space-md);
+}
+
+.section-exhibitions-cta .btn {
+    margin-top: var(--space-sm);
+}
+
+.exhibitions-hero {
+    position: relative;
+    padding: 0;
+}
+
+.exhibitions-hero__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.exhibitions-hero__overlay {
+    position: absolute;
+    left: 50%;
+    bottom: var(--space-lg);
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.55);
+    color: var(--color-text-light);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    max-width: 90%;
+}
+
+.exhibitions-hero__title {
+    margin: 0 0 var(--space-xs);
+    font-size: var(--fs-lg);
+}
+
+.exhibitions-hero__text {
+    margin: 0;
+    font-size: var(--fs-sm);
+    line-height: var(--lh-relaxed);
+}
+
+.exhibitions-list {
+    background-color: var(--color-bg-light);
+}
+
+.exhibitions-grid {
+    align-items: stretch;
+}
+
+.exhibitions-card {
+    box-shadow: var(--shadow-card);
+}
+
+.exhibitions-card .card__title {
+    color: var(--color-text);
+    font-size: var(--lh-relaxed);
+    color: var(--color-text-muted);
+}
+
+.exhibitions-visit-cta {
+    background-color: var(--color-bg-light);
+}
+
+.exhibitions-visit-cta__box {
+    background-color: var(--color-bg-white);
+    border-radius: var(--space-lg);
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+}
+
+.exhibitions-visit-cta__title {
+    margin: 0 0 var(--space-sm);
+    font-size: var(--fs-lg);
+}
+
+.exhibitions-visit-cta__text {
+    margin:  0 0 var(--space-md);
+    font-size: var(--fs-sm);
+    color: var(--color-text-muted);
+}
+
+
+
+@media (min-width: 768) {
+    .exhibitions-cta__card {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 420px;
+        margin: 0;
+    }
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: var(--radius-md);
+    font-size: var(--fs-md);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--color-logo-blue);
+    color: var(--color-bg-white);
+}
+
+.btn--secondary {
+    background-color: var(--color-bg-white);
+    color: var(--color-logo-blue);
+    border: 2px solid var(--color-logo-blue);
+}
+
+
+
+.logo img {
+    height: 28px;
+}
+
+.nav-toggle {
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: var(--fs-xl);
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.main-nav {
+    display:none
+}
+
+.main-nav__list {
+    list-style: none;
+    display: flex;
+    gap: var(--space-md);
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__link {
+    text-decoration: none;
+    font-size: var(--fs-sm);
+    color: var(--space-xs);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
