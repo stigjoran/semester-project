@@ -105,3 +105,7 @@ Decided to start with the mobile pages first and use the @media for the desktop 
 Im doing one page at a time, startet with index.html.
 made index.html, started on the styles.css, made a root and global body styles and typografi.
 
+27.11.2025
+updated the hero and audience sections and wcag comliant hidden heading. added the "page breaker" / illustration line.
+built the full events section with proper grid and alt text. Created the exhibitions page with hero overlay, four exhibition cards, and a visit cta.
+ 
