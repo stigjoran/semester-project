@@ -116,3 +116,13 @@ Improved button styling, nav colors, and general responsiveness across all pages
 Adjusted hero section and CTA components for consistent spacing and layout behavior.
 There is still alot to correct, but i'll have to do it when i feel better, still a bit sick. So i'll wrapp it up here
 and dive under the sheets. Good week all in all though!
+
+4.12.2025
+The past week I've been completing my four pages, got the last one done today. Have to take a step back and look at the "final" product tomorrow.
+Went through and cleaned the global CSS file, removed unused selectors and duplicated blocks.
+Fixed several syntax issues (rgba commas, brightness filter, box-shadow apacing).
+Updated exhibitions grid spacing and responsiveness. Verified skip-link on all foure pages and added id=main across pages.
+then i validated pages ageins accessibility, semantics and the gradeing criteria.
+Tomorrow I'll go over it again, and ask family or friends to review the page. Also i have to make an GitHub page to acutally make it "live".
+Actualy forgot how i did it last time, youtubes next! hehe. GOOD NIGHT! :D
+
