@@ -17,7 +17,7 @@ Engaging elements:
 colors, pictures of illustrations.
 
 User profile 2:
-Student plannoing a class field trip, 14 years old.
+Student planning a class field trip, 14 years old.
 Target:
 Use website to find information for a shcool project.
 Do they have Lego League like robotics or other science topic to use.
@@ -34,10 +34,10 @@ Not to much text, fast information.
 Good structure.
 
 User profile 3:
-Parent 40 years.
+Adult.
 Target:
 Easy to find opening hours, prices, parking, food and location.
-Is there anything for all my children. Age categories?
+Is there anything for all the children. Age categories?
 
 Dont want to see:
 Bad User interfecrence, not mobile freindly website.
@@ -106,13 +106,13 @@ Im doing one page at a time, startet with index.html.
 made index.html, started on the styles.css, made a root and global body styles and typografi.
 
 27.11.2025
-updated the hero and audience sections and wcag comliant hidden heading. added the "page breaker" / illustration line.
+updated the hero and audience sections and wcag comliant hidden heading. added the "page breaker" / illustration line. (The lab image that was provided, perfect for this)
 built the full events section with proper grid and alt text. Created the exhibitions page with hero overlay, four exhibition cards, and a visit cta.
 
 28.11.2025
 updated grid system and fixed media query errors to ensure proper tab/desktop layout.
-Cleaned up CSS structure, correcterd typos and removed duplicated rules.
+Cleaned up CSS structure, corrected typos and removed duplicated rules.
 Improved button styling, nav colors, and general responsiveness across all pages.
-Adjusted hero sectio and CTA components for consistent spacing and layout behavior.
+Adjusted hero section and CTA components for consistent spacing and layout behavior.
 There is still alot to correct, but i'll have to do it when i feel better, still a bit sick. So i'll wrapp it up here
 and dive under the sheets. Good week all in all though!

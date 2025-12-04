@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <title>Community Science Museum - Home</title>
     <meta name="description" content="Explore the Community Science Museum. Explore hands-on science with fun experiences for kids, teens and families.">
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body class="page">
+<a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
     <div class="header-bar">
         <a href="index.html" class="logo">
             <img src="images/ChatGPT-logo.png" alt="Community Science Museum"/>
         </a>
-        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
-            ☰ 
-        </button>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+
+        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation"></label>
 
         <nav class="main-nav" aria-label="Main navigation">
             <ul class="main-nav__list">
@@ -29,23 +33,20 @@
     </div>
 </header>
 
-<main>
+<main id="main">
     <section class="section hero">
         <img class="hero__image"
         src="images/ChatGPT-Hero.jpg"
         alt="Boy and a girl wearing VR headsets, laughing and exploring a science experience"/>
 
         <div class="hero-card">
-            <h1 class="hero-card__title">Start Your Science Adventures</h1>
-            <p class="hero-card__text">
-                Explore hands-on science with fun experiences for kids, teens and families.
-            </p>
+            <h1 class="hero-card__title">Start Your<br>Science Adventures</h1>
 
-        <div class="hero-card__buttons">
-            <a class="btn btn--primary" href="visit.html">Explore</a>
-            <a class="btn btn--secondary" href="exhibitions.html">Explore Our Museum Exhibitions</a>
+            <p class="hero-card__text">
+                Explore hands-on science with fun<br>experiences for kids, teens and families.
+            </p>
+            <a class="hero-floating-btn btn btn--primary" href="visit.html">Explore</a>
         </div>
-    </div>
 </section>
 
 <section class="section section-audience" aria-labelledby="audience-title">
@@ -53,19 +54,20 @@
     
         <h2 id="audience-title" class="sr-only">Who is the museum for?</h2>
 
-        <div class="grid grid--3 audience-grid">
-        <article class="audience-card">
+        <div class="audience-grid grid grid--3">
+
+        <a class="audience-card" href="exhibitions.html">
             <img src="images/cards/ChatGPT-Kids.jpg" 
              alt="Kid reading a magazine on a pile of books">
-        </article>
+        </a>
 
-        <article class="audience-card">
+        <a class="audience-card" href="visit.html">
             <img src="images/cards/ChatGPT-Teachers.jpg" alt="Teacher at the museum">
-        </article>
+        </a>
 
-        <article class="audience-card">
+        <a class="audience-card" href="visit.html">
             <img src="images/cards/ChatGPT-Researchers.jpg" alt="Researcher at the museum">
-        </article>
+        </a>
         </div>
     </div>
 
@@ -134,30 +136,27 @@
     </div>
     </section>
 
-    <section class="section section-exhibitions-cta">
+    <section class="section section-exhibitions-cta section--flush-footer">
         <div class="exhibitions-cta__image-wrapper">
             <img 
             class="exhibitions-cta__image"
             src="images/cards/ChatGPT-Exhibitions.jpg" 
             alt="A museum gallery combining paleontology and space science, with a T.rex and juvenile dinosaur skeleton centerpiece, large globe and saturn model, interactive screens, and a humanoid robot standing beside a digital star-map display"/>
 
-            <div class="exhibitions-cta__card">
+            <a href="exhibitions.html" class="exhibitions-cta__card exhibitions-cta__link">
                 <h2 class="exhibitions-cta__title">Explore Our Museum Exhibitions</h2>
-                <a class="btn btn--primary" href="exhibitions.html">View exhibitions</a>
-            </div>
+            </a>
         </div>
     </section>
 
 </main>
 
-<footer class="site-footer">
+<footer class="site-footer site-footer--flush">
     <div class="footer-top">
         <div class="footer-logo">
             <img src="images/ChatGPT-logo.png" alt="Community Science Museum"/>
         </div>
-    </div>
 
-    <div class="footer-bottom">
         <div class="footer-column">
             <h3 class="footer-title">Opening Times</h3>
             <p>Tuesday-Thursday: 10:00-16:00<br />Friday: 10:00-19:00<br />Saturday: 09:00-16:00<br />Sunday: 09:00-13:00</p>

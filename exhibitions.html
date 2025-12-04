@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <title>Community Science Museum - Exhibitions</title>
     <meta name="description" content="Discover exhibitions in cosmology, evolution, biology, medicine, ai, and robotics at the  Community Science Museum.">
     <link rel="stylesheet" href="css/styles.css"/>
@@ -14,9 +16,10 @@
         <a href="index.html" class="logo">
             <img src="images/ChatGPT-logo.png" alt="Community Science Museum"/>
         </a>
-        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
-            ☰ 
-        </button>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+
+        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation"></label>
 
         <nav class="main-nav" aria-label="Main navigation">
             <ul class="main-nav__list">
@@ -31,89 +34,87 @@
 
 <main>
 
-    <section class="exhibitions-hero__image"
+<section class="exhibitions-hero" aria-labelledby="exhibitions-hero-title">
+    <h1 id="exhibitions-hero-title" class="sr-only">Exhibition</h1>
+
+    <img
+    class="exhibitions-hero__image"
     src="images/cards/ChatGPT-Exhibitions.jpg" 
     alt="A museum gallery combining paleontology and space science, with a T.rex and juvenile dinosaur skeleton centerpiece, large globe and saturn model, interactive screens, and a humanoid robot standing beside a digital star-map display">
 
-    <div class="exhibitions-hero__overlay">
-        <h1 id="exhibitions-hero-title" class="exhibitions-hero__title">Exhibitions</h1>
-        <p class="exhibitions-hero__text">
+        <div class="exhibitions-hero__text">
             Discover interactive spaces covering space, evolution, technology and the living world.
-        </p>
-    </div>
+        </div>
 </section>
 
 <section class="section exhibitions-list" aria-label="Exhibitions spaces">
     <div class="container">
 
-        <div class="grid grid--2 exhibitions-card">
-            <article id="coslology" class="card exhibitions-card">
-            <img
-            class="card__image"
-            src="images/cards/ChatGPT-Cosmology.jpg"
-            alt="Planets and stars in a coslology exhibition.">
+        <div class="grid grid--2 exhibitions-grid">
 
-            <div class="card__body">
-                <h2 class="card__title">Cosmolgy</h2>
-                <p class="card__text">
-                    Explore the wonders of our cosmos. Our fantastic exhibition, The Sky Above Us, explores the night sky and what we can see and know about the universe around us. We`ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by. Follow the journey of our solar exploration: from early Arab traders, to Galileo`s telescope, to the latest exploration of the planets in our solar system.
+            <article id="cosmology" class="card exhibitions-card">
+                <h2 class="card__title">Cosmology</h2>             
+            
+            <img
+            class="exhibitions-card__image"
+            src="images/cards/ChatGPT-Cosmology.jpg"
+            alt="Planets and stars in a cosmology exhibition.">
+
+                <p class="exhibitions-card__text">
+                    Explore the wonders of our cosmos.<br><br>Our fantastic exhibition, The Sky Above Us, explores the night sky and what we can see and know about the universe around us.<br><br>We`ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.<br><br>Follow the journey of our solar exploration:<br><br> from early Arab traders, to Galileo`s telescope, to the latest exploration of the planets in our solar system.
                 </p>
-            </div>
         </article>
 
         <article id="evolution" class="card exhibitions-card">
+            <h2 class="card__title">Evolution</h2> 
+            
             <img
-            class="card__image"
+            class="exhibitions-card__image"
             src="images/cards/ChatGPT-Evolution.jpg"
             alt="Dinosaur skeleton and evolution timeline">
 
-            <div class="card__body">
-                <h2 class="card__title">Evolution</h2>
-                <p class="card__text">
-                    For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.
-                </p>
-            </div>
+            <p class="exhibitions-card__text">
+                For centuries, philosophers and scientists have wrestled with the question of our origins.<br><br>Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.<br><br>Discover the origins of life on this planet and how the species we know today have evolved our time.<br><br> You can also take some time to meet a few of the creatures who didn`t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+            </p>
         </article>
 
         <article id="biology" class="card exhibitions-card">
+            <h2 class="card__title">Biology and Medicine</h2>
             <img
-            class="card__image"
+            class="exhibitions-card__image"
             src="images/cards/ChatGPT-Biology-medicine.jpg"
             alt="Human anatomy model and DNA illustration">
-
-            <div class="card__body">
-                <h2 class="card__title">Biology and Medicine</h2>
-                <p class="card__text">
-                   From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. 
-                   For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant. 
+            
+                <p class="exhibitions-card__text">
+                   From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.<br><br> 
+                   For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine.<br><br>Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.<br><br> 
                    Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.
                 </p>
-            </div>
         </article>
 
-        <article id="Robotics" class="card exhibitions-card">
+        <article id="robotics" class="card exhibitions-card">
+            <h2 class="card__title">Robots and AI</h2>
             <img
-            class="card__image"
+            class="exhibitions-card__image"
             src="images/cards/ChatGPT-Robotics-AI.jpg"
             alt="Humanoid robot in a robotics and AI exhibition.">
 
-            <div class="card__body">
-                <h2 class="card__title">Robots and AI</h2>
-                <p class="card__text">
-                    The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.
+            
+                <p class="exhibitions-card__text">
+                    The information revolution is here and robotics and artificial intelligence are the science of the future.<br><br> From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.<br><br>In this exhibition, you`ll discover how robots are programmed and what happens when it encounter a problem.<br><br>With hands-on activites like VR and real working machines, you can get a glimpse on how we today use robots in space and how it`s paving way for tomorrow`s exploration of new planets.
                 </p>
-            </div>
         </article>
       </div>
-
     </div>
 </section>
 
-<section class="section exhibition-visit-cta" aria-labelledby="visit-cta-title">
+</main>
+
+<section class="section exhibitions-visit-cta" aria-labelledby="visit-cta-title">
     <div class="container">
         <div class="exhibitions-visit-cta__box">
             <h2 id="visit-cta-title" class="exhibitions-visit-cta__title">Ready to explore?</h2>
-            <p class="exhibition-visit-cta__text">
+            <p class="exhibitions-visit-cta__text">
                 Check opening hours, tickets and how to get here on our visit page.
             </p>
             <a class="btn btn--primary" href="visit.html">Plan Your Visit</a>
@@ -126,9 +127,7 @@
         <div class="footer-logo">
             <img src="images/ChatGPT-logo.png" alt="Community Science Museum"/>
         </div>
-    </div>
 
-    <div class="footer-bottom">
         <div class="footer-column">
             <h3 class="footer-title">Opening Times</h3>
             <p>Tuesday-Thursday: 10:00-16:00<br />Friday: 10:00-19:00<br />Saturday: 09:00-16:00<br />Sunday: 09:00-13:00</p>
@@ -147,5 +146,6 @@
 
     <p class="footer-copy">© 2025 Community Science Museum. All rights reserved</p>
 </footer>
-
-</main>
+    
+</body>
+</html>

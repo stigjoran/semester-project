@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
     <title>Community Science Museum - Visit</title>
     <meta name="description" content="Plan your visit to the Community Science Museum. Find opening hours, location, accessibility information and guided tours">
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body class="page">
 
+
 <header class="site-header">
     <div class="header-bar">
         <a href="index.html" class="logo">
             <img src="images/ChatGPT-logo.png" alt="Community Science Museum"/>
         </a>
-        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
-            ☰ 
-        </button>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+
+        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation"></label>
 
         <nav class="main-nav" aria-label="Main navigation">
             <ul class="main-nav__list">
@@ -46,37 +50,38 @@
 
     
 
-    <section class="section visit-details">
-        <div class="container visit-details__grid">
+<section class="section visit-details">
+    <div class="container">
+        <div class="visit-details__grid">
 
             <article class="visit-details__item">
-                <h2 class="visit-details__item">Admission</h2>
+                <h2 class="visit-details__item-title">Admission</h2>
                 <p class="visit-details__text">
                     The entrance is free for all. <br><br>
-                    There are guided tours of the museum that leave every hour.
-                    These tours are 70 NOK per person and include a handy printed guide of the museum.<br><br>
-                    If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+                    There are guided tours of the museum<br>that leave every hour.
+                    These tours are 70 NOK<br>per person and include a handy printed guide<br>of the museum.<br><br>
+                    If you would like to organise a guided tour<br>for your group of 6 or more people, please<br>contact us to arrange the tour.
                 </p>
             </article>
 
             <article class="visit-details__item">
-                <h2 class="visit-details-title">Food and drink</h2>
+                <h2 class="visit-details__item-title">Food and drink</h2>
                 <p class="visit-details__text">
-                    There is a café attached to the museum where you can get<br>
-                    light lunches, soft drinks, coffee, snacks and more.
+                    There is a café attached<br>to the museum where you can<br>get
+                    light lunches, soft drinks, <br>coffee, snacks and more.
                 </p>
             </article>
 
             <article class="visit-details__item">
-                <h2 class="visit-details-title">Shop</h2>
+                <h2 class="visit-details__item-title">Shop</h2>
                 <p class="visit-details__text">
-                    Our shop offers a range of memorabilia from the museum as well as great gifts<br>
-                    and activity packs that allow you to continue to explore science even after you`ve left the museum.
+                    Our shop offers a range of memorabilia from<br>the museum as well as great gifts
+                    and activity<br>packs that allow you to continue to explore<br>science even after you`ve left the museum.
                 </p>
             </article>
 
             <article class="visit-details__item">
-                <h2 class="visit-details-title">Science Museum</h2>
+                <h2 class="visit-details__item-title">Science Museum</h2>
                 <p class="visit-details__text">
                     WonderLab Street 1<br>
                     0101 Oslo, Norway.<br>
@@ -86,10 +91,10 @@
             </article>
 
             <article class="visit-details__item">
-                <h2 class="visit-details-title">Accessibility</h2>
+                <h2 class="visit-details__item-title">Accessibility</h2>
                 <p class="visit-details__text">
                     The museum has wheelchair accessibility ramps.<br><br>
-                    It also has audio guides and braille display signs for the visually impaired.
+                    It also has audio guides and braille display signs<br>for the visually impaired.
                 </p>
             </article>
 
@@ -97,7 +102,7 @@
 
 
             <article class="visit-details__item">
-                <h2 class="visit-details-title">Opening Hours</h2>
+                <h2 class="visit-details__item-title">Opening Hours</h2>
                 <p class="visit-details__text">
                     Monday: Closed<br>
                     Tuesday-Thursday: 10:00-16:00<br>
@@ -106,6 +111,9 @@
                     Sunday: 09:00-13:00
                 </p>
             </article>
+        </div>
+    </div>
+</section>
 
             <section class="section visit-cta" aria-labelledby="visit-cta-title">
                 <div class="container">
@@ -117,3 +125,33 @@
                     </div>
                 </div>
             </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <img src="images/ChatGPT-logo.png" alt="Community Science Museum"/>
+        </div>
+
+        <div class="footer-column">
+            <h3 class="footer-title">Opening Times</h3>
+            <p>Tuesday-Thursday: 10:00-16:00<br />Friday: 10:00-19:00<br />Saturday: 09:00-16:00<br />Sunday: 09:00-13:00</p>
+        </div>
+
+        <div class="footer-column">
+            <h3 class="footer-title">Location</h3>
+            <p>Community Science Museum<br />WonderLab Street 1<br />0101 Oslo, Norway.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3 class="footer-title">Contact</h3>
+            <p>Email: support@csm.com<br />Phone: +00 13 45 678</p>
+        </div>
+    </div>
+
+    <p class="footer-copy">© 2025 Community Science Museum. All rights reserved</p>
+</footer>
+    
+</body>
+</html>
