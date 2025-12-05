@@ -257,9 +257,11 @@ button {
 }
 
 .visit-details__item-title {
-    margin: 0 0 var(--space-xs);
-    font-size: var(--fs-md);
-    font-weight: 700;
+    text-align: center;
+}
+
+.visit-details__item p {
+    text-align: center;
 }
 
 .visit-cta {
