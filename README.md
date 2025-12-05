@@ -19,6 +19,8 @@ Mobile navigation using the checkbox "hamburger" pattern (no javascript).
 Accessibility:
 Sematic landmarks.
 One <h1> per page.
+
+
 Skip link to jump to main content.
 Alt text on all images.
 Color choices with good contrast between text and background.
