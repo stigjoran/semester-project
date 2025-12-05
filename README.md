@@ -28,7 +28,7 @@ All img are under 200kb.
 Single CSS file shared across all pages.
 
 SEO:
-Unique <title> and <meta name=desciption> on each page.
+Unique '<title>' and <meta name=desciption> on each page.
 Semantic headings and clean HTML structure.
 Descriptive link texts and image alt attributes.
 
