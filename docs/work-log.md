@@ -126,3 +126,5 @@ then i validated pages ageins accessibility, semantics and the gradeing criteria
 Tomorrow I'll go over it again, and ask family or friends to review the page. Also i have to make an GitHub page to acutally make it "live".
 Actualy forgot how i did it last time, youtubes next! hehe. GOOD NIGHT! :D
 
+5.12.2025
+made sure all img are under 200kb. removed the images thats not being used.
