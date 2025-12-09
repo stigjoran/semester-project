@@ -11,6 +11,7 @@
 --color-bg-card-yellow: #E6D6B5;
 
 --color-text: #1f2933;
+--color-text-hero: #2858B8;
 --color-text-light: #f3f4f6;
 --color-text-muted: #4b5563;
 
@@ -161,7 +162,7 @@ button {
 .hero-card__text {
     font-size: var(--fs-xl);
     line-height: 1.25;
-    color: var(--color-logo-blue);
+    color: var(--color-text-hero);
     margin-bottom: var(--space-lg);
     font-weight: 600;
 }
