@@ -128,3 +128,16 @@ Actualy forgot how i did it last time, youtubes next! hehe. GOOD NIGHT! :D
 
 5.12.2025
 made sure all img are under 200kb. removed the images thats not being used.
+
+8.12.2025
+Cleaned up the CSS media quieries and reorganised all max-width 767px and min-width 768px rules.
+removed duplicated selectors and improved the overall structure of the stylesheet.
+Validated the pages usint the W3C Validator and fixed several samll issues such as missing attributes and incorrect slashes.
+Updated the navigation label for better accessibility and to remvoveWCAG warnings.
+Started writing the project report (summary and parts of the main section)
+
+9.12.2025
+Continued working on the project report, writing the main section, Conclution, and Refrences. Added GitHub links, the Figma desig and inspiration sources.
+Performed new constrast checks and updated the text colors in hero section where needed, still need to figure out if i have to change the text in hero img on exhibitions.html and visit.html.
+Revalidated all the pages with the W3C Validator and fixed the last remaining issues.
+
