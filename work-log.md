@@ -8,7 +8,7 @@ Started to define target audiens and create use profile exampels.
 User profile 1:
 Asked one of my own what he would have liked to see. 9 years
 Target: 
-Old animals, spacecraft, the exebitoins. See videos or pictures of them.
+Old animals, spacecraft, the exhibitions. See videos or pictures of them.
 
 Dont want to see:
 Text,  want to navigate without reading alot.
@@ -19,7 +19,7 @@ colors, pictures of illustrations.
 User profile 2:
 Student planning a class field trip, 14 years old.
 Target:
-Use website to find information for a shcool project.
+Use website to find information for a school project.
 Do they have Lego League like robotics or other science topic to use.
 Are there workshops or events. Etc.
 
@@ -56,7 +56,7 @@ Exhibitions/workshop: Grid layout with cards of animals, space, vr etc
 
 Plan your stay/visit?: info block, opening hours, prices, location, parking etc
 
-Detail page/exhibiorin/workshops: not landed entirely on content here.
+Detail page/exhibitions/workshops: not landed entirely on content here.
 
 
 
@@ -68,7 +68,7 @@ https://www.tekniskmuseum.no
 https://www.ntnu.no/museum/
 
 They have all dark themes, it looks good but it feels more serious and academically oriented.
-So in iorder to meet my requirement in the CA i want to use large images insteed of dense infomation.
+So in order to meet my requirement in the CA i want to use large images insteed of dense infomation.
 Color's , light interface, playful layouts. Setting a playful moodboard for the Science Museum.
 
 This approach aligns better with the targeted audience in the age span 7-15 years with families.
@@ -121,8 +121,8 @@ and dive under the sheets. Good week all in all though!
 The past week I've been completing my four pages, got the last one done today. Have to take a step back and look at the "final" product tomorrow.
 Went through and cleaned the global CSS file, removed unused selectors and duplicated blocks.
 Fixed several syntax issues (rgba commas, brightness filter, box-shadow apacing).
-Updated exhibitions grid spacing and responsiveness. Verified skip-link on all foure pages and added id=main across pages.
-then i validated pages ageins accessibility, semantics and the gradeing criteria.
+Updated exhibitions grid spacing and responsiveness. Verified skip-link on all four pages and added id=main across pages.
+then i validated pages against accessibility, semantics and the gradeing criteria.
 Tomorrow I'll go over it again, and ask family or friends to review the page. Also i have to make an GitHub page to acutally make it "live".
 Actualy forgot how i did it last time, youtubes next! hehe. GOOD NIGHT! :D
 
@@ -132,7 +132,7 @@ made sure all img are under 200kb. removed the images thats not being used.
 8.12.2025
 Cleaned up the CSS media quieries and reorganised all max-width 767px and min-width 768px rules.
 removed duplicated selectors and improved the overall structure of the stylesheet.
-Validated the pages usint the W3C Validator and fixed several samll issues such as missing attributes and incorrect slashes.
+Validated the pages using the W3C Validator and fixed several samll issues such as missing attributes and incorrect slashes.
 Updated the navigation label for better accessibility and to remvoveWCAG warnings.
 Started writing the project report (summary and parts of the main section)
 
@@ -141,3 +141,5 @@ Continued working on the project report, writing the main section, Conclution, a
 Performed new constrast checks and updated the text colors in hero section where needed, still need to figure out if i have to change the text in hero img on exhibitions.html and visit.html.
 Revalidated all the pages with the W3C Validator and fixed the last remaining issues.
 
+10.12.2025
+Reviewed and validated all the four HTML pages for accessibility, structure and WCAG compliance one more time. Updated heading hierarchy where needed and improved link accessibility for phone numbers. Went through the stylesheet again to check for errors, duplicated and unused selectors. Cleaned up class usage and confirmed media queries were properly structured. Added final quality-control checks to ensure consitency across pages. Mentioned yesterday i had to figure out if the contrast in hero for exhibitions.html and visit.html was bad, i got error in webaim. But came to the conclution that it is a bug with the checker not using an accurate representation of the design. Prepared the final commit message and verified that the repository structure and documentation were correctly organized for submission. 

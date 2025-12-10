@@ -2,7 +2,12 @@ Community Science Museum - Semester Project
 
 This is my semester project for the Frontend development course. The goal was to design and develop a responsive, accessible and informative website for the fictional "Community Science Museum", target audience (7–15 years old).
 
-Github Pages: https://stigjoran.github.io/semester-project/
+Github Pages:
+https://stigjoran.github.io/semester-project/
+https://github.com/users/stigjoran/projects/4
+
+Figma:
+https://www.figma.com/design/dYmFUt0PtD5td8GqAdLokx/Science-Museum?node-id=0-1&t=ionSODvi8Bb1PfU6-1 
 
 The site consists of four pages.
 index.html - home / introduction and special events.
