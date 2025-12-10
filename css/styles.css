@@ -188,6 +188,13 @@ button {
 
     box-shadow: 0 12px 22px rgba(0, 0, 0, 0.18);
     z-index: 5;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-floating-btn:hover,
+.hero-floating-btn:focus-visible {
+    transform: translateX(-50%) translateY(-2px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
 }
 
 .hero-card__buttons {
