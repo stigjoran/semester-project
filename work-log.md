@@ -137,7 +137,7 @@ Updated the navigation label for better accessibility and to remvoveWCAG warning
 Started writing the project report (summary and parts of the main section)
 
 9.12.2025
-Continued working on the project report, writing the main section, Conclution, and Refrences. Added GitHub links, the Figma desig and inspiration sources.
+Continued working on the project report, writing the main section, Conclution, and Refrences. Added GitHub links, the Figma design and inspiration sources.
 Performed new constrast checks and updated the text colors in hero section where needed, still need to figure out if i have to change the text in hero img on exhibitions.html and visit.html.
 Revalidated all the pages with the W3C Validator and fixed the last remaining issues.
 
