@@ -2,6 +2,19 @@ Community Science Museum - Semester Project
 
 This is my semester project for the Frontend development course. The goal was to design and develop a responsive, accessible and informative website for the fictional "Community Science Museum", target audience (7–15 years old).
 
+## Improvements for Portfolio 1
+
+The following improvements were made as part of Portfolio 1:
+
+- Improved accessibility
+- Improved layout and styling
+- Added missing content and fixes
+- Updated project documentation
+
+## Live Site
+
+https://stigjoran.github.io/semester-project/
+
 Github Pages:
 https://stigjoran.github.io/semester-project/
 https://github.com/users/stigjoran/projects/4
